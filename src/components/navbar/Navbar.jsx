@@ -19,13 +19,17 @@ function Navbar() {
     setShowPokemon(true);
   };
 
+  const onHandleReload = () => {
+    window.location.reload()
+  }
+
   console.log("showPokemon", showPokemon);
   return (
     <div>
       <div className={classes.navbar}>
         <img src={imgUrl} alt="logo-pokeapi"></img>
 
-        <button className={classes.buttonStyleInit}>Inicio</button>
+        <button onClick={onHandleReload} className={classes.buttonStyleInit}>Inicio</button>
 
         <div className={classes.wrapperInput}>
           <input
