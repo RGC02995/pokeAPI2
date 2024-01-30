@@ -1,0 +1,167 @@
+.wrapperPokemonInfo {
+  background: linear-gradient(180deg, rgb(237, 159, 24) -10%, rgb(251, 218, 0) 90%);
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: 1px solid #000000;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+
+.wrapperPokemonInfo:hover {
+  box-shadow: rgb(255, 255, 255) 0px 1px 4px;
+}
+
+.upperText {
+  text-transform: uppercase;
+  color: rgb(45, 45, 45);
+  font-size: 50px;
+  text-align: center;
+  font-weight: 100;
+  margin-top: 15px;
+}
+
+.imgPokemon {
+  width: 100%;
+}
+
+.orderPokemon {
+  display: grid;
+  align-items: start;
+  margin-bottom: 10px;
+  color: rgba(6, 6, 6, 0.292);
+}
+
+li {
+    list-style-type: none;
+}
+
+.listStats {
+    background-color: #0000001f;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #282828d4;
+    padding: 1em;
+    border-radius: .8rem;
+}
+
+.grass{
+    background-color: rgb(20, 220, 20);
+    border-style: none;
+    border: 1px solid #282828 ;
+    text-transform: uppercase;
+}
+
+.poison{
+    background-color: rgb(161, 1, 210);
+    border-style: none;
+    border: 1px solid #282828 ;
+    text-transform: uppercase;
+    color: white;
+}
+
+.fire{
+    background-color: rgb(230, 134, 0);
+    border-style: none;
+    border: 1px solid #282828 ;
+    text-transform: uppercase;
+}
+
+.water{
+    background-color: rgb(0, 165, 236);
+    border-style: none;
+    border: 1px solid #282828 ;
+    text-transform: uppercase;
+}
+
+.steel{
+    background-color: rgb(185, 185, 185);
+    border-style: none;
+    border: 1px solid #282828 ;
+    text-transform: uppercase;
+}
+
+.ground{
+    background-color: rgba(198, 115, 0, 0.98);
+    border-style: none;
+    border: 1px solid #282828 ;
+    text-transform: uppercase;
+}
+
+.dragon{
+    background-color: rgb(98, 0, 255);
+    border-style: none;
+    border: 1px solid #282828 ;
+    text-transform: uppercase;
+}
+
+.flying{
+    background-color: rgb(12, 221, 249);
+    border-style: none;
+    border: 1px solid #282828 ;
+    text-transform: uppercase;
+}
+
+.electric{
+    background-color: rgb(255, 255, 0);
+    border-style: none;
+    border: 1px solid #282828 ;
+    text-transform: uppercase;
+}
+
+.dark{
+    background-color: rgb(55, 55, 55);
+    border-style: none;
+    border: 1px solid #282828 ;
+    color: white;
+    text-transform: uppercase;
+}
+
+.psychic{
+    background-color: rgb(204, 88, 233);
+    border-style: none;
+    border: 1px solid #282828 ;
+    text-transform: uppercase;
+}
+
+.bug{
+    background-color: rgb(97, 184, 17);
+    border-style: none;
+    border: 1px solid #282828 ;
+    text-transform: uppercase;
+}
+
+.ice{
+    background-color: rgb(120, 226, 232);
+    border-style: none;
+    border: 1px solid #282828 ;
+    text-transform: uppercase;
+}
+
+.fairy{
+    background-color: rgb(247, 88, 242);
+    border-style: none;
+    border: 1px solid #282828 ;
+    text-transform: uppercase;
+}
+
+.fighting{
+    background-color: rgb(255, 0, 115);
+    border-style: none;
+    border: 1px solid #282828 ;
+    color: white;
+    text-transform: uppercase;
+}
+
+.ghost{
+    background-color: rgb(116, 57, 188);
+    border-style: none;
+    border: 1px solid #282828 ;
+    text-transform: uppercase;
+}
