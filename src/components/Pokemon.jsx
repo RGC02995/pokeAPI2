@@ -3,6 +3,7 @@ import "./Pokemon.module.css";
 import { useContext } from "react";
 import { InputContext } from "./context/InputValueProvider";
 import classes from "../components/Pokemon.module.css";
+import Spinner from "./Spinner";
 
 function Pokemon() {
   const { inputValue } = useContext(InputContext);
@@ -17,14 +18,16 @@ function Pokemon() {
         setIsLoading(false);
         setPokemon(data);
         setPokemonFront(data.sprites.front_default);
-        console.log(data);
+        console.log(data.especies.name);
       });
   }, [inputValue]);
 
   return (
     <div>
       {isLoading ? (
-        <p>Loading</p>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <Spinner />
+      </div>
       ) : (
         <div style={{ margin: 20 }}>
           <div className={classes.wrapperPokemonInfo}>
